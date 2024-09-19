@@ -34,9 +34,9 @@ Este projeto é uma **Calculadora de IMC (Índice de Massa Corporal)** desenvolv
 ### Passos para rodar o projeto localmente
 
 1. **Clone o repositório**:
-  ```bash
+   ```bash
    git clone https://github.com/seu-usuario/calculadora-imc.git
-  ```
+   ```
 
 2. **Navegue até a pasta do projeto:**
    ```bash
