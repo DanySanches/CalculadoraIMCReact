@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# 📊 Calculadora de IMC - React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma **Calculadora de IMC (Índice de Massa Corporal)** desenvolvida em React. Ele permite que os usuários insiram sua altura e peso e, com base nessas informações, calcula e exibe o IMC, juntamente com uma classificação (abaixo do peso, peso normal, sobrepeso, etc.).
 
-## Available Scripts
+## ✨ Funcionalidades
 
-In the project directory, you can run:
+- ✅ **Cálculo de IMC**: O usuário insere sua altura (em centímetros) e seu peso (em quilos) e obtém o valor do IMC.
+- 🧮 **Classificação de IMC**: Após o cálculo, o IMC é classificado conforme as categorias:
+  - 🟡 Abaixo do peso
+  - 🟢 Peso normal
+  - 🟠 Sobrepeso
+  - 🔴 Obesidade grau 1
+  - 🔴 Obesidade grau 2
+- 📱 **Design responsivo**: A interface é feita com **Bootstrap** para ser compatível com dispositivos móveis e desktops.
 
-### `npm start`
+## 📷 Demonstração
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Exemplo da Calculadora de IMC](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQrV4hIsRO_1Le88wpLpjX4lQWimQ4A7irPg&s)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+- ⚛️ **React**: Biblioteca JavaScript para criação de interfaces de usuário.
+- 🎨 **Bootstrap**: Framework CSS para criação de interfaces responsivas e estilizadas.
+- 📜 **JavaScript**: Utilizado para lógica de cálculo do IMC.
+- 🌐 **HTML/CSS**: Estrutura e estilização adicional.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Instalação e Execução
 
-### `npm run build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🟩 Node.js instalado (versão LTS recomendada)
+- 📦 npm (gerenciador de pacotes do Node.js)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Passos para rodar o projeto localmente
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone o repositório**:
+  ```bash
+   git clone https://github.com/seu-usuario/calculadora-imc.git
+  ```
 
-### `npm run eject`
+2. **Navegue até a pasta do projeto:**
+   ```bash
+   cd calculadora-imc
+   ```
+   
+3. **Instale as dependências:**
+     ```bash
+      npm install
+     ```
+     
+4. **Execute o projeto:**
+     ```bash
+      npm start
+     ```
+5. O aplicativo será aberto automaticamente no navegador, acessível em
+   `http://localhost:3000.`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 Como Usar
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Digite sua altura (em centímetros) e peso (em quilos) nos campos apropriados.
+2. Clique no botão "Calcular".
+3. O resultado do IMC e sua respectiva classificação serão exibidos na tela.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Estrutura do Projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `public/:` Contém o arquivo index.html e outros ativos públicos.
+- `src/:` Contém o código-fonte do projeto React, incluindo o arquivo principal App.js.
+- `App.js:` Componente principal onde está implementada a lógica de cálculo do IMC.
+- `index.js:` Ponto de entrada do aplicativo React.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
