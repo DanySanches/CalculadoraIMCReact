@@ -35,12 +35,12 @@ Este projeto é uma **Calculadora de IMC (Índice de Massa Corporal)** desenvolv
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/calculadora-imc.git
+   git clone https://github.com/DanySanches/CalculadoraIMCReact
    ```
 
 2. **Navegue até a pasta do projeto:**
    ```bash
-   cd calculadora-imc
+   cd CalculadoraIMCReact
    ```
    
 3. **Instale as dependências:**
